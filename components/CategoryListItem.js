@@ -8,9 +8,10 @@ import {
 import SkiiImage from '../assets/skii.png';
 
 export default function CategoryListItem(props) {
+    const { category } = props;
     return (
         <View style={styles.container}>
-            <Text style={styles.title}>Hello Binh</Text>
+            <Text style={styles.title}>{category.name}</Text>
             <Image
                 style={styles.categoryImage}
                 source={SkiiImage} />
