@@ -10,6 +10,7 @@ import SkiiImage from '../assets/skii.png';
 
 export default function CategoryListItem(props) {
     const { category, onPress } = props;
+    console.log(category);
     return (
         <TouchableOpacity
             activeOpacity={0.7}
@@ -18,7 +19,7 @@ export default function CategoryListItem(props) {
                 <Text style={styles.title}>{category.name}</Text>
                 <Image
                     style={styles.categoryImage}
-                    source={SkiiImage} />
+                    source={category.image} />
             </View>
         </TouchableOpacity>
     );

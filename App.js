@@ -1,16 +1,11 @@
+import React from "react";
+import axios from "axios";
 
-import React from 'react';
-import { NavigationContainer } from '@react-navigation/native';
-import { createStackNavigator } from '@react-navigation/stack';
-import AppNavigator from './AppNavigator';
+import AppNavigator from "./AppNavigator";
 
-const Stack = createStackNavigator();
+axios.defaults.baseURL = "http://localhost:3000";
 export default class App extends React.Component {
   render() {
-    return (
-      <NavigationContainer>
-        <AppNavigator />
-      </NavigationContainer>
-    );
+    return <AppNavigator />;
   }
 }

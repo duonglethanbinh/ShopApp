@@ -1,11 +1,13 @@
 import React from 'react';
 import { Image, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 
-import { formatPrice } from '../utils/Number';
+// import { formatPrice } from '../utils/Number';
 
 export default function ProductListItem(props) {
     const { product, onAddToCartClick } = props;
-    return (<View style={styles.shadow}>
+
+    return (
+    <View style={styles.shadow}>
         <View style={styles.container}>
             <Image style={styles.img} source={{ uri: product.images[0].url }} />
             <View style={styles.info}>
@@ -14,7 +16,7 @@ export default function ProductListItem(props) {
                 </Text>
                 <View style={styles.priceRow}>
                     <Text style={styles.price}>
-                        {formatPrice(product.price)}
+                        {product.price}
                     </Text>
                     <TouchableOpacity onPress={onAddToCartClick}>
                         <Text style={styles.cartText}>Mua +</Text>

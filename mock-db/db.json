@@ -1,0 +1,87 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Dụng cụ trượt tuyết",
+      "image": "https://www.flaticon.com/svg/static/icons/svg/1328/1328352.svg"
+    },
+    {
+      "id": 2,
+      "name": "Quần áo trượt tuyết",
+      "image": "https://www.flaticon.com/svg/static/icons/svg/2346/2346838.svg"
+    },
+    {
+      "id": 3,
+      "name": "Kính mũ",
+      "image": "https://www.flaticon.com/svg/static/icons/svg/1336/1336308.svg"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "images": [
+        {
+          "url": "https://fr2.htgetrid.com/images/article/orig/2018/08/detskie-lyzhi-raznovidnosti-i-kriterii-podbora.jpeg"
+        }
+      ],
+      "name": "Robin",
+      "price": "5000000",
+      "category": 1
+    },
+    {
+      "id": 2,
+      "images": [
+        {
+          "url": "https://kenh14cdn.com/thumb_w/600/2016/s3-1455530479323.jpg"
+        }
+      ],
+      "name": "Barney",
+      "price": "4000000",
+      "category": 1
+    },
+    {
+      "id": 1,
+      "images": [
+        {
+          "url": "https://sc02.alicdn.com/kf/HTB1tbbrXea5K1Rjt_a0q6zGdVXae.jpg_350x350.jpg"
+        }
+      ],
+      "name": "Barney",
+      "price": "4000000",
+      "category": 2
+    },
+    {
+      "id": 2,
+      "images": [
+        {
+          "url": "https://vcdn-ngoisao.vnecdn.net/2017/12/28/hilton3-1724-1514457642.jpg"
+        }
+      ],
+      "name": "Barney",
+      "price": "4000000",
+      "category": 2
+    },
+    {
+      "id": 1,
+      "images": [
+        {
+          "url": "https://contents.mediadecathlon.com/p1178034/k$ef6fa8fa1c0a19b38b4c70a68df3f2d8/g-120-adult-and-junior-bad-weather-ski-and-snowboard-goggles-black.jpg?&f=800x800"
+        }
+      ],
+      "name": "Barney",
+      "price": "4000000",
+      "category": 3
+    },
+    {
+      "id": 2,
+      "images": [
+        {
+          "url": "https://www.steampunkgoggles.com/wp-content/uploads/universe-black-red-85369d8a3c-zoom.jpg"
+        }
+      ],
+      "name": "Barney",
+      "price": "4000000",
+      "category": 3
+    }
+  ]
+}
